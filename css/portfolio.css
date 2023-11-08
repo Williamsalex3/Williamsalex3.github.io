@@ -1,0 +1,14 @@
+div.profile.bg-gradient-primary-to-secondary
+{
+    border-radius: 30%;
+    box-shadow: 2px 2px 2px ;
+}
+.bg-gradient-primary-to-secondary {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #2c1ef3 0%, rgb(237, 55, 18) 100%);
+  }
+
+
+
+
+
