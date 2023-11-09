@@ -1,14 +1,27 @@
 div.profile.bg-gradient-primary-to-secondary
 {
     border-radius: 30%;
-    box-shadow: 2px 2px 2px ;
+    box-shadow: 3px 3px 3px ;
 }
 .bg-gradient-primary-to-secondary {
     background: #1e30f3;
     background: linear-gradient(135deg, #2c1ef3 0%, rgb(237, 55, 18) 100%);
   }
 
-
-
-
-
+  .text-gradient {
+    background: -webkit-linear-gradient(315deg, #2c1ef3 0%, rgb(237, 55, 18) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+  .bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #DE3522 !important;
+  }
+  .text-secondary {
+    --bs-text-opacity: 1;
+    color: #DE3522 !important;
+  }
